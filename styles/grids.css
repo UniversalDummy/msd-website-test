@@ -1,0 +1,25 @@
+@media screen and (min-width: 1350px) {
+    .row-6 {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+
+    .row-4 {
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+    }
+}
+
+.column {
+    /* background-color: yellow; */
+
+    margin: auto;
+
+    padding: auto;
+
+}
+
+.grid {
+    display: grid;
+    
+}

@@ -1,0 +1,44 @@
+article.story {
+    background-color: white;
+
+    margin: 2% 5%;
+
+    border-radius: 10px;
+
+    padding: 2% 10%;
+}
+
+article.story figure {
+
+    text-align: center;
+}
+
+article.story figure img {
+    width: 50%;
+
+    border-radius: 25px;
+}
+
+article.story header {
+    font-size: 75px;
+
+    text-align: center;
+
+    margin: 2%;
+}
+
+article.story h3 {
+    background-color: lightgray;
+    border-radius: 10px;
+
+    padding: 1%;
+
+    display: inline-block;
+
+}
+
+article.story p, article.story ul {
+    font-size: 25px;
+
+    margin: 2%;
+}

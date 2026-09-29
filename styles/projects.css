@@ -1,0 +1,86 @@
+.hero {
+    text-align: center;
+
+    cursor: default;
+    
+    margin: 1%;
+}
+
+.hero figure img {
+    width: 25%;
+
+    transition: 0.25s;
+}
+
+@media screen and (min-width: 1350px) {
+    .hero h1 {
+        font-size: 200px;
+    }
+
+    .hero {
+        text-align: center;
+
+        margin: 1%;
+
+        display: grid;
+
+        grid-template-columns: 8fr 4fr;
+    }
+
+    .hero figure img {
+        width: 75%;
+
+        transition: 0.25s;
+    }
+
+}
+
+.hero figure {
+    margin: auto;
+}
+
+.hero:hover figure img {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.hero:hover header {
+    transform: scale(1.05);
+}
+
+.hero header {
+    background-color: white;
+
+    margin: 5%;
+
+    padding: 5%;
+
+    border-radius: 10px;
+
+    transition: 0.25s;
+}
+
+hr {
+    border: 2.5px solid black;
+
+    border-radius: 10px;
+
+    margin: 2%;
+    
+}
+
+#featured {
+    background-color: #eba100;
+}
+
+.background {
+    background-color: gray;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+    border: black 10px solid;
+    border-bottom: 0;
+
+    padding: 1%;
+    padding-top: 2.5%;
+}

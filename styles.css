@@ -1,0 +1,108 @@
+@font-face {
+    font-family: erica-one;
+    src: url("assets/fonts/Erica_One/EricaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: concert-one;
+    src: url("assets/fonts/Concert_One/ConcertOne-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    overflow-wrap: anywhere;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    
+    background-color: lightgray;
+    height: 100%;
+
+    font-family: concert-one;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.figure-image {
+    width: 50%;
+
+
+    border-radius: 5px;
+
+}
+
+.pop-anim1 {
+    transition: 0.25s;
+}
+
+.pop-anim1:hover {
+
+    transform: rotate(5deg) scale(1.1);
+
+    border-radius: 10px;
+
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    box-shadow: 10px 10px 10px black;
+}
+
+.pop-anim2 {
+    transition: 0.25s;
+}
+
+.pop-anim2:hover {
+
+    transform: rotate(-5deg) scale(1.1);
+
+    border-radius: 10px;
+
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+    box-shadow: -10px 10px 10px black;
+
+}
+
+.spin-anim1 {
+    transition: 0.5s;
+}
+
+.spin-anim1:hover {
+
+    transform: rotate(360deg);
+}
+
+.scale-anim1 {
+    transition: 0.25s;
+}
+
+.scale-anim1:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    color: white;
+    background-color: #333333;
+
+    padding: 1%;
+
+    font-size: 30px;
+}
+

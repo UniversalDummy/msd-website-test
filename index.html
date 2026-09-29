@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles/grids.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="stylesheet" href="styles/homepage.css">
+        <link rel="stylesheet" href="codeblocks/codeblocks.css">
+        <link rel="stylesheet" href="styles/cards.css">
+
+        <link rel="icon" type="image/x-icon" href="assets/images/logos/MSD Logos/MrScriptDev Logo (Rounded) PNG.png">
+        <title>MrScriptDev | Home</title>
+    </head>
+
+    <body>
+
+        <section class="hero row-6">
+            <div class="column" id="title-container">
+                <h1 class="title" style="font-weight: 100;">MrScriptDev</h1>
+                <h1 id="title-subtext">That Programmer</h1> <!-- This text changes upon page reload! -->
+                <hr>
+            </div>
+            <div class="column text-center">
+                <img src="assets/images/logos/MSD Logos/MrScriptDev Logo (Transparent).png" class="cover" alt="CHANGE CHANGE CHANGE">
+            </div>
+        </section>
+
+        <main>
+            <nav id="main-nav">
+                <h1 id="brand">
+                    <a href="index.html">MrScriptDev</a>
+                </h1>
+                <ul>
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                </ul>
+                
+            </nav>
+
+            <a class="chunk text-start" href="about.html">
+                <section class="row-6">
+                    <article class="column">
+                        <header>
+                            Hello, World!
+                        </header>
+                        <hr>
+                        <br>
+                        I'm MrScriptDev. This site is my interface to the world!
+                        In a nutshell, I'm a young self-taught systems level programmer.
+                        If you're interested in learning more about me, click this box!
+                        Or, keep scrolling to explore. I have a lot more to show you!
+                    </article>
+                    <figure class="column text-center">
+                        <img src="https://preview.redd.it/darwin-watterson-my-version-v0-v9si4xpzbkk51.jpg?auto=webp&s=ac469e002aee40417d6d8d388ae461a5cbf96805" class="figure-image pop-anim1">
+                    </figure>
+                </section>
+            </a>
+            
+            <a class="chunk text-end" href="projects.html">
+                <section class="row-6">
+                    <figure class="column text-center">
+                        <img src="https://img.magnific.com/premium-vector/delivery-box-clipart-vector-art-illustration_761413-18511.jpg?semt=ais_hybrid&w=740&q=80" class="figure-image pop-anim2">
+                    </figure>
+                    <article class="column">
+                        <header>
+                            My Projects...
+                        </header>
+                        <hr>
+                        I make all sorts of code projects. All of my projects are free and open source.
+                        Click this box to check out my projects!
+                    </article>
+                </section>
+            </a>
+
+            <a class="chunk text-start" href="about.html#socials">
+                <section class="row-6">
+                    <article class="column">
+                        <header>
+                            Socials
+                        </header>
+                        <hr>
+                        I don't have many socials. Does GitHub count? Click this box to see my socials!
+                    </article>
+                    <figure class="column text-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" class="figure-image spin-anim1">
+                    </figure>
+                </section>
+            </a>
+
+            <!-- Scrapped Idea... for now...
+             
+            <a class="chunk text-end" href="learn.html">
+                <section class="row-6">
+                    <figure class="codeblock column" style="font-size: 30px; margin: 5%;">
+                        #include &lt;iostream&gt;
+                        <br>
+                        int main() {
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;std::cout &lt;&lt; "Hello, world!" &lt;&lt; std::endl;
+                            <br>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return 0;
+                            <br>
+                        }
+                    </figure>
+                    <article class="column">
+                        <header>
+                            Interested In Code?
+                        </header>
+                        <hr>
+                        I've built courses to learn coding based on reputable resources!
+                        Click this box to check it out!
+                    </article>
+                </section>
+            </a>
+            -->
+
+            <div class="text-center" id="featured">
+                <header>
+                    Preview My Projects!
+                </header>
+                <hr>
+                <section class="row-4">
+                    <a class="card" href="projects.html">
+                        <header>
+                            The Silicon Grind
+                        </header>
+
+                        <hr>
+
+                        <article>
+                            <em>The Silicon Grind</em> is MrScriptDev's most valuable, most important, most successfull,
+                            and largest project he has ever made. Code named "Project Summer 2025" and "Project Summer 2026,"
+                            MrScriptDev continues to work on the project actively.
+
+                            <br>
+                            <br>
+
+                            This MSD project involves low level programming. Utilizing a custom toolchain developed in C, 
+                            x86 CPU instructions are hand-encoded bit by bit and burned to be bootable on a disk.
+                        </article>
+                    </a>
+                    <a class="card" href="projects.html">
+                        <header>
+                            This Website
+                        </header>
+
+                        <hr>
+
+                        <article>
+                            Believe it or not, this website is one of MrScriptDev's proud projects as well!
+                        </article>
+                    </a>
+                    <a class="card" href="projects.html">
+                        <header>
+                            Pending...
+                        </header>
+
+                        <hr>
+
+                        <article>
+                            MrScriptDev will fill in this spot with a project when one is available.
+                        </article>
+                    </a>
+                </section>
+            </div>
+
+            <footer>
+                Copyright © MrScriptDev 2026
+            </footer>
+        </main>
+        
+        <script src="script.js"></script>
+        <script src="scripts/homepage.js"></script>
+    </body>
+</html>

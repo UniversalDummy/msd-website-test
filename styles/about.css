@@ -1,0 +1,102 @@
+section {
+    margin: 2%;
+}
+
+.chunk {
+    margin: 2%;
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    padding: 2%;
+
+    transition: 0.25s;
+}
+
+.chunk:hover {
+    
+    transform: scale(1.05);
+}
+
+
+section header {
+    font-size: 50px;
+
+    margin: 1%;
+}
+
+section div article.backdrop {
+    background-color: #EEEEEE;
+
+    border-radius: 10px;
+    
+}
+
+section article {
+
+    color: gray;
+
+    font-size: 35px;
+
+    margin: 1%;
+
+    padding: 2%;
+
+}
+
+.hero {
+    height: initial;
+    width: auto;
+
+    margin: 2%;
+
+    padding: 2%;
+
+    background-image: linear-gradient(to top right, #eba100 , black, black, black, gray);
+    background-size: auto;
+    background-position: center;
+
+    border-radius: 25px;
+
+}
+
+.hero h1 {
+    margin: auto;
+
+    padding: auto;
+
+    text-align: center;
+
+    font-size: 100px;
+
+    color: white;
+
+    transition: 0.25s;
+}
+
+.hero:hover h1 {
+    transform: scale(1.05);
+}
+
+figure {
+    width: 100%;
+}
+
+section ul li {
+    margin: 2% 5%;
+
+}
+
+section ul li details {
+    font-size: 25px;
+
+}
+
+section ul li details summary {
+    cursor: pointer;
+}
+
+img {
+    width: 75%;
+}

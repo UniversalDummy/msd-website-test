@@ -1,0 +1,51 @@
+.card {
+    border: black solid 10px;
+    border-radius: 20px;
+
+    background-color: white;
+
+    color: black;
+
+    padding: 5%;
+    margin: 5%;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+
+}
+
+a.card {
+    text-decoration: none;
+
+    color: inherit;
+
+    display: block;
+}
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 10px 10px 30px black;
+}
+
+.card header {
+    font-size: 35px;
+
+    margin: auto;
+}
+
+.card article {
+    font-size: 20px;
+
+    margin: auto;
+}
+
+.card aside {
+    color: gray;
+
+    text-align: end;
+
+    margin: 2%;
+}

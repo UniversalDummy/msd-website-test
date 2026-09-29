@@ -1,0 +1,167 @@
+.hero {
+
+    background-image: linear-gradient(to top right, black , black, gray); /*#eba100*/
+    color: white;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+@media screen and (max-width: 1350px) {
+    .hero {
+        display: none;
+    }
+}
+
+.hero .title {
+    font-size: 100px;
+    font-family: erica-one;
+
+    text-shadow: 0 0 25px white;
+
+    transition: 0.25s;
+}
+
+.hero .cover {
+    width: 75%;
+
+    transition: 0.25s;
+
+}
+
+.hero .cover:hover {
+    transform: rotate(5deg);
+}
+
+.hero #title-container {
+    cursor: default;
+}
+
+.hero #title-container:hover .title {
+
+    text-shadow: 0 0 40px white;
+
+
+}
+
+.hero #title-subtext {
+    color: #eba100;
+
+    transition: 0.25s;
+}
+
+.hero #title-container:hover #title-subtext {
+    
+    text-shadow: 2.5px 2.5px #976700;
+
+}
+
+.hero #title-container hr {
+    visibility: hidden;
+    border: 5px solid #eba100;
+
+    box-shadow: 2.5px 2.5px #976700;
+
+    width: 0%;
+
+    transition: 0.25s;
+}
+
+.hero #title-container:hover hr {
+    visibility: visible;
+    width: 100%;
+
+}
+
+main {
+    background-image: url(../assets/images/Background.png);
+}
+
+.chunk {
+    margin: 5%;
+    padding: 5%;
+
+    color: black;
+
+    background-color: white;
+
+    box-shadow: 10px 10px 10px black;
+
+    border: 10px black solid;
+
+    border-radius: 25px;
+
+    transition: 0.5s;
+
+    cursor: pointer;
+
+}
+
+a.chunk {
+    display: block;
+
+    color: inherit;
+
+    text-decoration: none;
+}
+
+.chunk:hover {
+    transform: scale(1.01);
+
+    box-shadow: 15px 15px 20px black;
+}
+
+header {
+    font-size: 75px;
+
+    margin: auto 2%;
+}
+
+hr {
+    
+    margin: 1% 0;
+    border: 5px solid black;
+
+    border-radius: 10px;
+
+    width: 100%;
+
+    display: inline-block;
+}
+
+article {
+    font-size: 40px;
+
+    margin: auto 5%;
+}
+
+figure {
+    margin: 5%;
+}
+
+#featured {
+    padding: 2%;
+
+    background-color: #eba100;
+
+    border: 10px solid black;
+    border-bottom: 0px;
+
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+#featured hr {
+    border: 5px solid black;
+
+    margin: 1% 0;
+
+    border-radius: 10px;
+
+    width: 50%;
+
+    display: inline-block;
+}
